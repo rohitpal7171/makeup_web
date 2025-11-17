@@ -1,0 +1,9 @@
+.header-brand-name {
+	background: linear-gradient(90deg, #b8a56a, #6f8256, #b8a56a);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: "Playfair Display", sans-serif !important;
+	font-style: italic;
+	font-size: large;
+}
