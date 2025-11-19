@@ -8,7 +8,6 @@ import {
 	primaryHoverBackgroundColor,
 	primaryHoverColor,
 } from "../../utils/globalVariables";
-// import flowerDesign from "../../assets/flower_designs/flower_design_first.svg";
 
 const FooterLeftSection = () => {
 	return (
@@ -31,6 +30,9 @@ const FooterLeftSection = () => {
 					width: "100%",
 				}}>
 				<IconButton
+					onClick={() => {
+						window.open("https://www.instagram.com/anamika_mallick_makeovers/");
+					}}
 					sx={{
 						background: "white",
 						width: 45,

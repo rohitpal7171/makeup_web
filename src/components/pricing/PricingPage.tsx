@@ -37,31 +37,76 @@ const PricingCenterArea = () => {
 					Our Charges
 				</Typography>
 			</Box>
-			{/* Box for Studio Charges  */}
+			{/* Box for Delhi NCR Charges  */}
 			<Box sx={{ width: "100%" }}>
 				<Typography variant="h6" className="font-sans-serif">
-					Studio Charges
+					Delhi NCR Charges
 				</Typography>
 				<Typography
 					variant="body2"
 					fontWeight={"bolder"}
 					color={primaryGreyColor}
 					sx={{ mt: commonMarginTop, mb: 1 }}>
-					Main Event: <span style={{ color: "black" }}>40,000</span>
+					Bridal Makeup: <span style={{ color: "black" }}>25,000</span>
 				</Typography>
 				<Typography
 					variant="body2"
 					fontWeight={"bolder"}
 					color={primaryGreyColor}
 					sx={{ mb: 1 }}>
-					Sec. Event: <span style={{ color: "black" }}>30,000</span>
+					Engagement Makeup: <span style={{ color: "black" }}>20,000</span>
 				</Typography>
 				<Typography
 					variant="body2"
 					fontWeight={"bolder"}
 					color={primaryGreyColor}
 					sx={{ mb: 1 }}>
-					Non-Bridal: <span style={{ color: "black" }}>20,000</span>
+					Mehendi Makeup: <span style={{ color: "black" }}>8,000</span>
+				</Typography>
+				<Typography
+					variant="body2"
+					fontWeight={"bolder"}
+					color={primaryGreyColor}
+					sx={{ mb: 1 }}>
+					Haldi Makeup: <span style={{ color: "black" }}>8,000</span>
+				</Typography>
+			</Box>
+			{/* Box for Studio Charges  */}
+			<Box sx={{ width: "100%" }}>
+				<Typography variant="h6" className="font-sans-serif">
+					OutStation Charges
+				</Typography>
+				<Typography
+					variant="body2"
+					fontWeight={"bolder"}
+					color={primaryGreyColor}
+					sx={{ mt: commonMarginTop, mb: 1 }}>
+					Bridal Makeup:{" "}
+					<span style={{ color: "black" }}>35,000+ convenience charges</span>
+				</Typography>
+				<Typography
+					variant="body2"
+					fontWeight={"bolder"}
+					color={primaryGreyColor}
+					sx={{ mb: 1 }}>
+					Engagement Makeup:{" "}
+					<span style={{ color: "black" }}>25,000+ convenience charges</span>
+				</Typography>
+				<Typography
+					variant="body2"
+					fontWeight={"bolder"}
+					color={primaryGreyColor}
+					sx={{ mb: 1 }}>
+					Mehendi Makeup:{" "}
+					<span style={{ color: "black" }}>12,000+ convenience charges</span>
+				</Typography>
+				<Typography
+					variant="body2"
+					fontWeight={"bolder"}
+					color={primaryGreyColor}
+					sx={{ mb: 1 }}>
+					Haldi Makeup:{" "}
+					<span style={{ color: "black" }}>12,000+ convenience charges</span>
 				</Typography>
 			</Box>
 			{/* Box for Inclusion and Exclusion  */}
