@@ -16,7 +16,7 @@ const FooterLeftSection = () => {
 				variant="h6"
 				fontWeight="bolder"
 				className="footer-brand-name">
-				Anamika Mallick
+				Social Media
 			</Typography>
 			<Typography sx={{ mt: commonMarginTop }} className="font-cursive">
 				Excited to create flawless looks for all our gorgeous clients on their
@@ -64,11 +64,18 @@ const FooterRightSection = () => {
 				className="footer-brand-name">
 				Contact
 			</Typography>
-			<Typography sx={{ mt: commonMarginTop }} className="font-cursive">
-				makeoverByAnamika@gmail.com
-			</Typography>
+			<Typography sx={{ mt: commonMarginTop }}>+91 7376356226</Typography>
 			<Typography sx={{ mt: commonMarginTop }}>
-				Address area, gali number, blah blah blah, delhi, 110092.
+				<a
+					href="https://www.instagram.com/anamika_mallick_makeovers/"
+					target="_blank"
+					rel="noopener noreferrer"
+					style={{
+						color: "inherit",
+						cursor: "pointer",
+					}}>
+					Follow on Instagram
+				</a>
 			</Typography>
 		</Box>
 	);

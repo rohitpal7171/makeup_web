@@ -109,6 +109,15 @@ const PricingCenterArea = () => {
 					<span style={{ color: "black" }}>12,000+ convenience charges</span>
 				</Typography>
 			</Box>
+
+			{/* Box for Studio Charges  */}
+			<Box sx={{ width: "100%" }}>
+				<Typography variant="h6" className="font-sans-serif">
+					Party Makeup Charges:{" "}
+					<span style={{ color: "black", fontWeight: "bolder" }}>5,000</span>
+				</Typography>
+			</Box>
+
 			{/* Box for Inclusion and Exclusion  */}
 			<Box sx={{ width: "100%", mt: 4 }}>
 				<Typography variant="h4" className="font-cursive" color={primaryColor}>
@@ -123,7 +132,7 @@ const PricingCenterArea = () => {
 					color={primaryGreyColor}
 					sx={{ mt: commonMarginTop, mb: 1 }}>
 					Makeup, Hair Styling, Draping, Mink/Silk False Eyelashes, Coloured
-					Non-powered lenses, Nail Paint Change
+					Non-powered lenses
 				</Typography>
 				<Typography variant="h6" className="font-sans-serif" sx={{ mt: 4 }}>
 					Exlcusions for all Makeups

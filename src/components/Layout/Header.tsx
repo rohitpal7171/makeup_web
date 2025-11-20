@@ -26,10 +26,10 @@ const Header = () => {
 					}}
 				/>
 				<Typography
-					variant="h4"
+					variant="h5"
 					fontWeight="bolder"
 					className="header-brand-name">
-					Anamika Mallick
+					Anamika Mallick Makeover
 				</Typography>
 			</Box>
 		</div>
